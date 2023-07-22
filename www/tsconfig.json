@@ -15,6 +15,7 @@
     "**/*.cjs",
     "**/*.mjs",
     "../reset.d.ts",
-    "./tailwind.config.ts"
+    "./tailwind.config.ts",
+    "prettier.config.mjs"
   ]
 }

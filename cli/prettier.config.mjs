@@ -9,6 +9,14 @@ const config = {
   ],
   tailwindConfig: "./template/extras/config/tailwind.config.ts",
   trailingComma: "es5",
+  overrides: [
+    {
+      files: "template/**/*.cjs",
+      options: {
+        plugins: [],
+      },
+    },
+  ],
 };
 
-module.exports = config;
+export default config;
